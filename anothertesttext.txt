@@ -1,1 +1,19 @@
 This is a test file
+
+WARNING; I did not create a Super User in Ubuntu server, so just use Sudo for everything
+
+Installing Docker on Ubuntu:
+https://www.jenkins.io/doc/book/installing/docker/
+
+Pulling the latest docker image for jenkins:
+docker image pull docker:dind
+
+
+
+AmazonServer Commands:
+scp -i /d/goworkspace/src/jenkinsexample1/project/security/jenkinskeypair.pem yourbinaryhere ubuntu@ec2-3-136-158-63.us-east-2.compute.amazonaws.com:
+
+ssh -i /d/goworkspace/src/jenkinsexample1/project/security/jenkinskeypair.pem ubuntu@ec2-3-136-158-63.us-east-2.compute.amazonaws.com
+
+Currently Using: 
+ssh -i /d/goworkspace/src/jenkinsexample1/project/security/jenkinskeypair.pem ubuntu@ec2-3-136-158-63.us-east-2.compute.amazonaws.com
